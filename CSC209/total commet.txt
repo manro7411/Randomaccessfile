@@ -1,0 +1,10 @@
+  // raf.writeDouble(list1.getPrice());
+            // raf.writeInt(list1.getId());
+
+
+  int[] size = new int[3];
+                    for (int i = 0; i < size.length - 1; i++) {
+                        size[i] = kb.nextInt();
+                        System.out.print(size[i] + " ");
+                    }
+                    Supermarket insert = new Supermarket(100, "type", "product", 100.00);
